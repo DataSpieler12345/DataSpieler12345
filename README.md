@@ -1,5 +1,5 @@
 ![MasterHead](https://thumbs.gfycat.com/BetterHandmadeGull-size_restricted.gif)
-<h1 align="center">Hi 👋, I'm DataSpieler</h1>
+<h1 align="center">Hi 👋, I'm DataSpieler 👨‍💻​💚​</h1>
 <h3 align="center">A passionate junior BI-Analyst from Germany</h3>
 <img align="right" alt="Coding" width="400" src="https://i.pinimg.com/originals/f9/13/57/f9135788c6aeeec438abb986f283936c.gif">
 
