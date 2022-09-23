@@ -7,7 +7,7 @@
 
 - 👯 I’m looking to collaborate on **project name**
 
-- 🤝 I’m currently learning **Python,HTML5, CSS3, R**
+- 🤝 I’m currently learning **Python, HTML5, CSS3, R**
 
 - 💬 Ask me about **BI & Python**
 
