@@ -5,7 +5,7 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=dataspieler12345&label=Profile%20views&color=0e75b6&style=flat" alt="dataspieler12345" /> </p>
 
-- 👯 I’m looking to collaborate on **project name**
+- 👯 I’m looking to collaborate on **IT/BI Project**
 
 - 🤝 I’m currently learning **Python, HTML5, CSS3, R**
 
