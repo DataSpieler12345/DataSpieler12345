@@ -26,8 +26,9 @@ async function generateSVG() {
     <text x="50%" y="55%" dominant-baseline="middle" text-anchor="middle" font-size="18" fill="#000">${message}</text>
   </svg>`;
 
-  fs.mkdirSync("output", { recursive: true });
-  fs.writeFileSync("output/streak-stats.svg", svg);
+  // 👇 Aquí está la parte importante
+  fs.mkdirSync("output/streak-stats", { recursive: true });
+  fs.writeFileSync("output/streak-stats/streak-stats.svg", svg);
 }
 
 generateSVG();
