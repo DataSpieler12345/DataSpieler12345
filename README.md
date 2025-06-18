@@ -23,7 +23,6 @@
 </p>
 
 ---
-
 ## 🧠 About Me
 
 I'm a passionate data analyst focused on Business Intelligence solutions.  
@@ -42,7 +41,6 @@ Currently experimenting with custom HTML + JS visuals inside Power BI.
 ![JavaScript](https://img.shields.io/badge/JS-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
 ---
-
 ## 🚀 Currently Working On
 
 - Animated custom visuals in Power BI using HTML + JS 🎯  
@@ -50,7 +48,6 @@ Currently experimenting with custom HTML + JS visuals inside Power BI.
 - Automating reports using Python + SQL 🔄
 
 ---
-
 ## 📈 GitHub Stats
 
 <!-- 📊 Tarjeta de resumen con eventos y curva de contribuciones -->
@@ -59,14 +56,13 @@ Currently experimenting with custom HTML + JS visuals inside Power BI.
 </p>
 
 ---
-
 ## 🧰 Most Used Languages & Tools
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dataspieler12345&layout=compact&theme=tokyonight&hide_border=true&card_width=300" alt="Top Languages" />
 </p>
----
 
+---
 ## 🤝 Let's Collaborate
 
 I'm open to collaborating on data, automation, or BI visualization projects.
@@ -75,13 +71,11 @@ I'm open to collaborating on data, automation, or BI visualization projects.
 🌍 Portfolio (in progress): [dataspieler.dev](https://dataspieler.dev)
 
 ---
-
 ## 🎯 Fun Fact
 
 > Sometimes my dashboards take longer to design than to analyze… but every pixel is worth it! 😄
 
 ---
-
 ## 🙏 Thanks for stopping by!
 
 If you like my work, feel free to ⭐ star this profile or reach out for collaboration.  
