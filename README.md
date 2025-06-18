@@ -3,22 +3,23 @@
   <img src="https://komarev.com/ghpvc/?username=dataspieler12345&label=Profile%20views&color=0e75b6&style=flat" alt="Profile Views" />
 </p>
 
-<!-- Header with banner and intro -->
+<!-- Header -->
+<h1 align="center">👋 Hi, I'm DataSpieler 🧠</h1>
+
+<!-- Matrix-style animated intro -->
 <p align="center">
-  <img src="https://thumbs.gfycat.com/BetterHandmadeGull-size_restricted.gif" alt="Animated Banner" width="100%" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1000&color=39FF14&center=true&vCenter=true&width=420&lines=I+love+Data;I+love+coding+from+home+%F0%9F%92%BB+%F0%9F%8F%A0" alt="Matrix typing animation" />
 </p>
 
-<h1 align="center">👋 Hi, I'm <span style="color:#27ae60">DataSpieler</span> 👨‍💻</h1>
-<h3 align="center">BI Analyst • Power BI Enthusiast • Data Storyteller from Germany 
+<!-- Subtitle with Germany flag -->
 <h3 align="center">
   BI Analyst • Power BI Enthusiast • Data Storyteller from Germany
   <img src="https://flagcdn.com/w40/de.png" width="20" alt="Germany Flag">
 </h3>
 
-</h3>
-
+<!-- Workspace image -->
 <p align="center">
-  <img src="https://i.pinimg.com/originals/f9/13/57/f9135788c6aeeec438abb986f283936c.gif" alt="Coding" width="400"/>
+  <img src="https://i.pinimg.com/originals/f9/13/57/f9135788c6aeeec438abb986f283936c.gif" alt="Coding at desk" width="480"/>
 </p>
 
 ---
