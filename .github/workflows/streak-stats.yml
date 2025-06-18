@@ -11,29 +11,31 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    name: Generate & Upload Streak SVG
+
     steps:
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Generate Streak Stats SVG
-        uses: jonathanGin52/streak-stats@v1
-        with:
-          user: dataspieler12345
-          theme: tokyo-night
-          mode: daily
-          hide_border: true
-          hide_total_contributions: false
-          card_width: 750
-          stroke: 5BF4AE
-          fire: FFA500
-          ring: 5BF4AE
-          currStreakLabel: 5BF4AE
-          sideLabels: 999999
+      - name: Generate streak-stats.svg using curl
+        run: |
+          mkdir -p output/streak-stats
+          echo "Downloading streak-stats.svg..."
+          curl -s -f "https://github-readme-streak-stats.herokuapp.com?user=dataspieler12345&theme=tokyonight&hide_border=true&date_format=M%20j%5B%2C%20Y%5D&stroke=5BF4AE&ring=5BF4AE&fire=FFA500&currStreakLabel=5BF4AE&sideLabels=999999" \
+            -o output/streak-stats/streak-stats.svg
 
-      - name: Push to output branch
+          if [ -s output/streak-stats/streak-stats.svg ]; then
+            echo "✅ SVG downloaded successfully."
+            ls -lh output/streak-stats/
+          else
+            echo "❌ ERROR: SVG not generated."
+            exit 1
+          fi
+
+      - name: Push SVG to output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
-          build_dir: streak-stats
+          build_dir: output
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
