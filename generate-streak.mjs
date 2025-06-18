@@ -2,18 +2,17 @@ import { Octokit } from "@octokit/rest";
 import fs from "fs";
 
 const octokit = new Octokit({ auth: process.env.GITHUB_TOKEN });
-
 const username = "dataspieler12345";
 
-async function fetchStreakData() {
+async function generateSVG() {
   const events = await octokit.activity.listPublicEventsForUser({
     username,
     per_page: 100,
   });
 
   const today = new Date().toISOString().split("T")[0];
-  const hasContributionToday = events.data.some((event) =>
-    event.created_at.startsWith(today)
+  const hasContributionToday = events.data.some((e) =>
+    e.created_at.startsWith(today)
   );
 
   const color = hasContributionToday ? "#39FF14" : "#FF6347";
@@ -22,13 +21,13 @@ async function fetchStreakData() {
     : "💤 No contributions today";
 
   const svg = `
-  <svg width="300" height="100" xmlns="http://www.w3.org/2000/svg">
-    <rect width="300" height="100" fill="${color}"/>
-    <text x="50%" y="50%" alignment-baseline="middle" text-anchor="middle" fill="#000" font-size="20">${message}</text>
+  <svg width="400" height="110" xmlns="http://www.w3.org/2000/svg">
+    <rect width="400" height="110" fill="${color}"/>
+    <text x="50%" y="55%" dominant-baseline="middle" text-anchor="middle" font-size="18" fill="#000">${message}</text>
   </svg>`;
 
   fs.mkdirSync("output", { recursive: true });
   fs.writeFileSync("output/streak-stats.svg", svg);
 }
 
-fetchStreakData();
+generateSVG();
