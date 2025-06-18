@@ -1,0 +1,39 @@
+name: Generate GitHub Streak Stats
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Generate Streak Stats SVG
+        uses: jonathanGin52/streak-stats@v1
+        with:
+          user: dataspieler12345
+          theme: tokyo-night
+          mode: daily
+          hide_border: true
+          hide_total_contributions: false
+          card_width: 750
+          stroke: 5BF4AE
+          fire: FFA500
+          ring: 5BF4AE
+          currStreakLabel: 5BF4AE
+          sideLabels: 999999
+
+      - name: Push to output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: streak-stats
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
