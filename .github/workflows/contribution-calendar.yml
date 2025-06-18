@@ -1,0 +1,19 @@
+name: Generate GitHub Contribution Grid Snake
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  push:
+    branches:
+      - main
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate snake SVG
+        uses: Platane/snk@v3
+        with:
+          github_user_name: dataspieler12345
+          outputs: |
+            ./output/github-contribution-grid-snake.svg
