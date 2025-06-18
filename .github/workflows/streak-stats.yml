@@ -17,7 +17,7 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Generate streak-stats.svg via action
-        uses: jonathanGin52/streak-stats@latest
+        uses: JonathanGin52/streak-stats@latest
         with:
           user: dataspieler12345
           theme: tokyo-night
