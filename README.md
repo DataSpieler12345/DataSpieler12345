@@ -67,7 +67,7 @@ Currently experimenting with custom HTML + JS visuals inside Power BI.
 
 I'm open to collaborating on data, automation, or BI visualization projects.
 
-📩 Email: [dataspieler@email.com](mailto:yoursocialmediacontact@gmail.com)  
+📩 Email: [yoursocialmediacontact@gmail.com](mailto:yoursocialmediacontact@gmail.com)  
 
 ---
 ## 🎯 Fun Fact
