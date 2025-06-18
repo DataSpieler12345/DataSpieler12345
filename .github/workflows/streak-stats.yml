@@ -1,4 +1,39 @@
-- name: Run generate-streak script
-  run: node generate-streak.mjs
-  env:
-    GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+name: Generate GitHub Streak Stats
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: npm install @octokit/rest
+
+      - name: Run generate-streak.mjs
+        run: node generate-streak.mjs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Push SVG to output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: output
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
