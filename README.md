@@ -23,6 +23,7 @@
 </p>
 
 ---
+
 ## 🧠 About Me
 
 I'm a passionate data analyst focused on Business Intelligence solutions.  
@@ -30,8 +31,6 @@ I love turning complex data into simple, impactful, and visually stunning dashbo
 Currently experimenting with custom HTML + JS visuals inside Power BI.
 
 ---
-
-## 💼 Tools & Technologies
 
 ## 💼 Tools & Technologies
 
@@ -60,8 +59,8 @@ Currently experimenting with custom HTML + JS visuals inside Power BI.
 ![Command Prompt](https://img.shields.io/badge/Command%20Prompt-000000?style=for-the-badge&logo=windows&logoColor=white)
 ![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white)
 
-
 ---
+
 ## 🚀 Currently Working On
 
 - Animated custom visuals in Power BI using HTML + JS 🎯  
@@ -69,6 +68,7 @@ Currently experimenting with custom HTML + JS visuals inside Power BI.
 - Automating reports using Python + SQL 🔄
 
 ---
+
 ## 📈 GitHub Stats
 
 <!-- 📊 Tarjeta de resumen con eventos y curva de contribuciones -->
@@ -77,6 +77,7 @@ Currently experimenting with custom HTML + JS visuals inside Power BI.
 </p>
 
 ---
+
 ## 🧰 Most Used Languages & Tools
 
 <p align="center">
@@ -84,6 +85,7 @@ Currently experimenting with custom HTML + JS visuals inside Power BI.
 </p>
 
 ---
+
 ## 🤝 Let's Collaborate
 
 I'm open to collaborating on data, automation, or BI visualization projects.
