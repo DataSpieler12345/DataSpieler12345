@@ -1,0 +1,5 @@
+
+  <svg width="400" height="110" xmlns="http://www.w3.org/2000/svg">
+    <rect width="400" height="110" fill="#FF6347"/>
+    <text x="50%" y="55%" dominant-baseline="middle" text-anchor="middle" font-size="18" fill="#000">💤 No contributions today</text>
+  </svg>
